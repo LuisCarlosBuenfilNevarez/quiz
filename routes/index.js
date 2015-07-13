@@ -1,13 +1,17 @@
 var express = require('express');
 var router = express.Router();
 
-//importar routes
-var controller = require('../controllers/quiz_controller');
+var quizController = require('../controllers/quiz_controller');
 
-router.get('/', controller.index);
-router.get('/quizes/question', controller.question);
-router.get('/quizes/answer', controller.answer);
-router.get('/author', controller.author);
-router.get('*', controller.error);
+/* GET home page. */
+router.get('/', function(req, res) {
+  res.render('index', { title: 'Quiz' });
+});
+
+router.get('/quizes/question', quizController.question);
+router.get('/quizes/answer', quizController.answer);
+router.get('/author', function(req,res) {
+  res.render('author', {});
+});
 
 module.exports = router;
