@@ -18,7 +18,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
-app.use(favicon(__dirname + '/public/favicon.ico'));  // Descomentamos esta línea cuando añadimos el favicon
+app.use(favicon(__dirname + '/public/skyrim.ico'));  // Descomentamos esta línea cuando añadimos el favicon
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
