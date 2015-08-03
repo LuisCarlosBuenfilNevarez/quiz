@@ -1,7 +1,9 @@
-body             { background: #333; }
 
+body             { font-size: small; background: #181E4A; }
+
+section          {height: 200px}
+span, section h3 {display: none;}
 #page-wrap:after { content: "Smartphone Layout"; }
 
-h2 span, section h3 { display: none; }
-body                { font-size: xx-large; }
-footer,input        { font-size: large; }
+img                  { border-radius: 50%; height:30px; width:30px;}
+video     { height:50%; width:50%;}
