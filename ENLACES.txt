@@ -1,4 +1,4 @@
-﻿Despliego aquí todos los enlaces:
+Despliego aquí todos los enlaces:
 
 Aplicación en Heroku: https://quiz-luiscarlos.herokuapp.com/
 
