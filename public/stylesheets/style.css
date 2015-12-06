@@ -1,31 +1,15 @@
 *                    { margin: 0; padding: 0; }
-body                 { font: 16px Helvetica, sans-serif; background: #BAB9DA;}
+body                 { font: 16px Georgia, serif; }
 
 #page-wrap           { margin: 2% auto; color: white; }
-#page-wrap > .main   { border: 1px solid #000099; padding: 1%; 
-	                   margin-bottom: 1px; color: black; }
+#page-wrap > .main   { border: 1px solid #999; padding: 1%; 
+	                   margin-bottom: 1px; color: black;}
 
+section > div        { padding: 20px; }
 header, nav, section { background: #eee; text-align: center;}
-nav					 {text-align: left;}
-section > div 		 { padding: 20px; min-height: 300px}
 footer               { background: #eee; text-align: center;}
-table                { margin: 0 auto;}
-th                   { padding-bottom: 10px; border-bottom: 2px solid #000099; }
+nav span             { margin: 0px 10px 0px 0px;}
 
-ul                   { list-style-type: none;}
-nav li               { margin: 0px 10px 0px 0px; display: inline;}
-#ErrorMsgs           { color: #f61; font-size: smaler; }
+#ErrorMsgs 	{color: #f61; font-size: smaler}
+
 img                  { height:100px; width:100px;}
-
-.right 				 { float: right; }
-
-#resalto {
-	display: block;
-    background: #d66;
-	animation-name: enrojo;
-    animation-duration: 3s;
-}
-@keyframes enrojo {
-    from { background-color: #BAB9DA; }
-    to   { background-color: #d66; }
-}
